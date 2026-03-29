@@ -22,12 +22,11 @@ def setup(name: str = 'app_logger',log_file: str = 'app.log') -> logging.Logger:
     return logger
 
 logger = setup()
-logger.debug("debug message")
-logger.info("info message")
-logger.warning("warning message")
-logger.error("error message")
-logger.critical("critical message")
-
+logger.debug("Logger initialized and configuration loaded.")
+logger.info("Starting the Data Preprocessing Pipeline...")
+logger.warning("External data source detected: checking file integrity.")
+logger.error("Data validation failed: missing columns in input CSV.")
+logger.critical("Memory limit reached: process terminated.")
 
 def data_load(url):
     logger.info("Data Loaded Started")
