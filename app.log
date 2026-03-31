@@ -104,3 +104,265 @@ weighted avg       0.86      0.85      0.85      6513
 2026-03-29 05:10:43,412 | app_logger | INFO | Model Save Start
 2026-03-29 05:10:43,434 | app_logger | INFO | Model Saved Successfully | path=data\model_evalution\best_pipe.pkl
 2026-03-29 05:10:43,434 | app_logger | INFO |  Main Pipeline Execution Completed
+2026-03-29 05:38:45,818 | app_logger | DEBUG | Logger initialized and configuration loaded.
+2026-03-29 05:38:45,818 | app_logger | INFO | Starting the Data Preprocessing Pipeline...
+2026-03-29 05:38:45,819 | app_logger | WARNING | External data source detected: checking file integrity.
+2026-03-29 05:38:45,819 | app_logger | ERROR | Data validation failed: missing columns in input CSV.
+2026-03-29 05:38:45,819 | app_logger | CRITICAL | Memory limit reached: process terminated.
+2026-03-29 05:38:45,819 | app_logger | INFO | Data Loaded Started
+2026-03-29 05:38:45,918 | app_logger | INFO | Data Load Successfully
+2026-03-29 05:38:45,919 | app_logger | INFO | Data Save Start
+2026-03-29 05:38:46,107 | app_logger | INFO | Data Saved Successfully
+2026-03-29 06:03:21,430 | app_logger | INFO | Main Pipeline Execution Started
+2026-03-29 06:03:21,430 | app_logger | INFO | Data Load Started
+2026-03-29 06:03:21,547 | app_logger | INFO | Data Load Successfully | shape=(32561, 15)
+2026-03-29 06:03:21,548 | app_logger | INFO | Data Splitting Start
+2026-03-29 06:11:40,471 | app_logger | DEBUG | Logger initialized and configuration loaded.
+2026-03-29 06:11:40,471 | app_logger | INFO | Starting the Data Preprocessing Pipeline...
+2026-03-29 06:11:40,471 | app_logger | WARNING | External data source detected: checking file integrity.
+2026-03-29 06:11:40,471 | app_logger | ERROR | Data validation failed: missing columns in input CSV.
+2026-03-29 06:11:40,471 | app_logger | CRITICAL | Memory limit reached: process terminated.
+2026-03-29 06:11:40,472 | app_logger | INFO | Data Loaded Started
+2026-03-29 06:11:40,555 | app_logger | INFO | Data Load Successfully
+2026-03-29 06:11:40,555 | app_logger | INFO | Data Save Start
+2026-03-29 06:11:40,738 | app_logger | INFO | Data Saved Successfully
+2026-03-29 06:11:44,765 | app_logger | DEBUG | Logger initialized and configuration loaded.
+2026-03-29 06:11:44,766 | app_logger | INFO | Starting the Data Preprocessing Pipeline...
+2026-03-29 06:11:44,766 | app_logger | WARNING | External data source detected: checking file integrity.
+2026-03-29 06:11:44,767 | app_logger | ERROR | Data validation failed: missing columns in input CSV.
+2026-03-29 06:11:44,767 | app_logger | CRITICAL | Memory limit reached: process terminated.
+2026-03-29 06:11:44,767 | app_logger | INFO | Data Load Started
+2026-03-29 06:11:44,866 | app_logger | INFO | Data Load Successfully
+2026-03-29 06:11:44,866 | app_logger | INFO | Cleaning of Workclass Start
+2026-03-29 06:11:44,892 | app_logger | INFO | Workclass Columns Cleaning Completed
+2026-03-29 06:11:44,892 | app_logger | INFO | Cleaning of education column Start
+2026-03-29 06:11:44,935 | app_logger | INFO | Education column Cleaning Successfully
+2026-03-29 06:11:44,935 | app_logger | INFO | Education Order Column Created
+2026-03-29 06:11:44,942 | app_logger | INFO | Education Column Drop
+2026-03-29 06:11:44,944 | app_logger | INFO | marital_status column Cleaning Start
+2026-03-29 06:11:44,963 | app_logger | INFO | marital_status cleaning Successfully
+2026-03-29 06:11:44,964 | app_logger | INFO | Occupation Columns Cleaning Started
+2026-03-29 06:11:45,009 | app_logger | INFO | Occupation Column Cleaning Successfully
+2026-03-29 06:11:45,010 | app_logger | INFO | Relationship column Cleaning Started
+2026-03-29 06:11:45,027 | app_logger | INFO | Relationship columns Cleaning Successfully
+2026-03-29 06:11:45,028 | app_logger | INFO | Race Column Drop Successfully
+2026-03-29 06:11:45,028 | app_logger | INFO | native_country cleaning Started
+2026-03-29 06:11:45,138 | app_logger | INFO | Native_country Cleaning Successfully
+2026-03-29 06:11:45,143 | app_logger | INFO | Change the Income in 0&1
+2026-03-29 06:11:45,144 | app_logger | INFO | Rename the capital.loss column Successfully
+2026-03-29 06:11:45,144 | app_logger | INFO | Making a capital-gain-flag or capital-gain-log col by capital-gain 
+2026-03-29 06:11:45,147 | app_logger | INFO | making a columns successfully
+2026-03-29 06:11:45,147 | app_logger | INFO | Data Save Start
+2026-03-29 06:11:45,319 | app_logger | INFO | Data Saved Successfully
+2026-03-29 06:12:35,300 | app_logger | INFO | Main Pipeline Execution Started
+2026-03-29 06:12:35,301 | app_logger | INFO | Data Load Started
+2026-03-29 06:12:35,372 | app_logger | INFO | Data Load Successfully | shape=(32561, 15)
+2026-03-29 06:12:35,373 | app_logger | INFO | Data Splitting Start
+2026-03-29 06:29:29,923 | app_logger | INFO | Main Pipeline Execution Started
+2026-03-29 06:29:29,923 | app_logger | INFO | Data Load Started
+2026-03-29 06:29:29,994 | app_logger | INFO | Data Load Successfully | shape=(32561, 15)
+2026-03-29 06:29:29,995 | app_logger | INFO | Data Splitting Start
+2026-03-29 06:29:30,017 | app_logger | INFO | Data Splitting Successfully | train=26048, test=6513
+2026-03-29 06:29:30,018 | app_logger | INFO | Making a Processor Started
+2026-03-29 06:29:30,018 | app_logger | INFO | Making a Processor Successfully
+2026-03-29 06:29:30,018 | app_logger | INFO | Model Pipeline Build Started
+2026-03-29 06:29:30,019 | app_logger | INFO | Model Fitting Started
+2026-03-29 06:30:03,496 | app_logger | INFO | Model Fitting Successfully
+2026-03-29 06:30:03,497 | app_logger | INFO | Model Prediction Started
+2026-03-29 06:30:03,583 | app_logger | INFO | Model Prediction Successfully
+2026-03-29 06:30:03,611 | app_logger | DEBUG | Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.92      0.86      0.89      4976
+           1       0.63      0.77      0.69      1537
+
+    accuracy                           0.84      6513
+   macro avg       0.77      0.81      0.79      6513
+weighted avg       0.85      0.84      0.84      6513
+
+2026-03-29 06:30:03,611 | app_logger | INFO | Model Save Start
+2026-03-29 06:30:03,638 | app_logger | INFO | Model Saved Successfully | path=data\model_evaluation\best_pipe.pkl
+2026-03-29 06:30:03,639 | app_logger | INFO | Main Pipeline Execution Completed
+2026-03-29 07:07:30,740 | app_logger | INFO | Main Pipeline Execution Started
+2026-03-29 07:07:30,740 | app_logger | INFO | Data Load Started
+2026-03-29 07:07:30,822 | app_logger | INFO | Data Load Successfully | shape=(32561, 15)
+2026-03-29 07:07:30,823 | app_logger | INFO | Data Splitting Start
+2026-03-29 07:07:30,835 | app_logger | INFO | Data Splitting Successfully | train=26048, test=6513
+2026-03-29 07:07:30,835 | app_logger | INFO | Making a Processor Started
+2026-03-29 07:07:30,835 | app_logger | INFO | Making a Processor Successfully
+2026-03-29 07:07:30,836 | app_logger | INFO | Model Building Start
+2026-03-29 07:08:47,651 | app_logger | INFO | Main Pipeline Execution Started
+2026-03-29 07:08:47,651 | app_logger | INFO | Data Load Started
+2026-03-29 07:08:47,735 | app_logger | INFO | Data Load Successfully | shape=(32561, 15)
+2026-03-29 07:08:47,735 | app_logger | INFO | Data Splitting Start
+2026-03-29 07:08:47,745 | app_logger | INFO | Data Splitting Successfully | train=26048, test=6513
+2026-03-29 07:08:47,746 | app_logger | INFO | Making a Processor Started
+2026-03-29 07:08:47,746 | app_logger | INFO | Making a Processor Successfully
+2026-03-29 07:08:48,499 | app_logger | INFO | Model Building Start
+2026-03-29 07:08:48,502 | app_logger | INFO | Model Pipeline Build Started
+2026-03-29 07:08:48,502 | app_logger | INFO | Model Fitting Started
+2026-03-29 07:09:15,476 | app_logger | INFO | Model Fitting Successfully
+2026-03-29 07:09:15,476 | app_logger | INFO | Model Prediction Started
+2026-03-29 07:09:15,650 | app_logger | INFO | Model Prediction Successfully
+2026-03-29 07:09:15,689 | app_logger | INFO | Model Save Start
+2026-03-29 07:09:15,709 | app_logger | INFO | Model Saved Successfully | path=data\model_evaluation\best_pipe.pkl
+2026-03-29 07:10:37,236 | app_logger | INFO | Main Pipeline Execution Started
+2026-03-29 07:10:37,236 | app_logger | INFO | Data Load Started
+2026-03-29 07:10:37,324 | app_logger | INFO | Data Load Successfully | shape=(32561, 15)
+2026-03-29 07:10:37,325 | app_logger | INFO | Data Splitting Start
+2026-03-29 07:10:37,338 | app_logger | INFO | Data Splitting Successfully | train=26048, test=6513
+2026-03-29 07:10:37,338 | app_logger | INFO | Making a Processor Started
+2026-03-29 07:10:37,339 | app_logger | INFO | Making a Processor Successfully
+2026-03-29 07:10:37,745 | app_logger | INFO | Model Building Start
+2026-03-29 07:10:37,748 | app_logger | INFO | Model Pipeline Build Started
+2026-03-29 07:10:37,748 | app_logger | INFO | Model Fitting Started
+2026-03-29 07:11:04,216 | app_logger | INFO | Model Fitting Successfully
+2026-03-29 07:11:04,217 | app_logger | INFO | Model Prediction Started
+2026-03-29 07:11:04,380 | app_logger | INFO | Model Prediction Successfully
+2026-03-29 07:11:04,418 | app_logger | INFO | Model Save Start
+2026-03-29 07:11:04,444 | app_logger | INFO | Model Saved Successfully | path=data\model_evaluation\best_pipe.pkl
+2026-03-29 07:11:04,498 | app_logger | INFO | Main Pipeline Execution Completed
+2026-03-29 07:15:39,012 | app_logger | INFO | Main Pipeline Execution Started
+2026-03-29 07:15:39,012 | app_logger | INFO | Data Load Started
+2026-03-29 07:15:39,090 | app_logger | INFO | Data Load Successfully | shape=(32561, 15)
+2026-03-29 07:15:39,090 | app_logger | INFO | Data Splitting Start
+2026-03-29 07:15:39,100 | app_logger | INFO | Data Splitting Successfully | train=26048, test=6513
+2026-03-29 07:15:39,100 | app_logger | INFO | Making a Processor Started
+2026-03-29 07:15:39,101 | app_logger | INFO | Making a Processor Successfully
+2026-03-29 07:15:39,484 | app_logger | INFO | Model Building Start
+2026-03-29 07:15:39,487 | app_logger | INFO | Model Pipeline Build Started
+2026-03-29 07:15:39,487 | app_logger | INFO | Model Fitting Started
+2026-03-29 07:16:11,153 | app_logger | INFO | Model Fitting Successfully
+2026-03-29 07:16:11,153 | app_logger | INFO | Model Prediction Started
+2026-03-29 07:16:11,494 | app_logger | INFO | Model Prediction Successfully
+2026-03-29 07:19:28,879 | app_logger | INFO | Main Pipeline Execution Started
+2026-03-29 07:19:28,880 | app_logger | INFO | Data Load Started
+2026-03-29 07:19:28,973 | app_logger | INFO | Data Load Successfully | shape=(32561, 15)
+2026-03-29 07:19:28,973 | app_logger | INFO | Data Splitting Start
+2026-03-29 07:19:28,988 | app_logger | INFO | Data Splitting Successfully | train=26048, test=6513
+2026-03-29 07:19:28,989 | app_logger | INFO | Making a Processor Started
+2026-03-29 07:19:28,989 | app_logger | INFO | Making a Processor Successfully
+2026-03-29 07:19:29,487 | app_logger | INFO | Model Building Start
+2026-03-29 07:19:29,490 | app_logger | INFO | Model Pipeline Build Started
+2026-03-29 07:19:29,490 | app_logger | INFO | Model Fitting Started
+2026-03-29 07:20:00,640 | app_logger | INFO | Model Fitting Successfully
+2026-03-29 07:20:00,641 | app_logger | INFO | Model Prediction Started
+2026-03-29 07:20:00,797 | app_logger | INFO | Model Prediction Successfully
+2026-03-29 07:20:00,988 | app_logger | INFO | Model Save Start
+2026-03-29 07:20:01,011 | app_logger | INFO | Model Saved Successfully | path=data\model_evaluation\best_pipe.pkl
+2026-03-29 07:20:01,176 | app_logger | INFO | Main Pipeline Execution Completed
+2026-03-29 07:21:53,241 | app_logger | INFO | Main Pipeline Execution Started
+2026-03-29 07:21:53,242 | app_logger | INFO | Data Load Started
+2026-03-29 07:21:53,311 | app_logger | INFO | Data Load Successfully | shape=(32561, 15)
+2026-03-29 07:21:53,311 | app_logger | INFO | Data Splitting Start
+2026-03-29 07:21:53,321 | app_logger | INFO | Data Splitting Successfully | train=26048, test=6513
+2026-03-29 07:21:53,322 | app_logger | INFO | Making a Processor Started
+2026-03-29 07:21:53,322 | app_logger | INFO | Making a Processor Successfully
+2026-03-29 07:21:53,724 | app_logger | INFO | Model Building Start
+2026-03-29 07:21:53,727 | app_logger | INFO | Model Pipeline Build Started
+2026-03-29 07:21:53,727 | app_logger | INFO | Model Fitting Started
+2026-03-29 07:22:18,324 | app_logger | INFO | Model Fitting Successfully
+2026-03-29 07:22:18,324 | app_logger | INFO | Model Prediction Started
+2026-03-29 07:22:18,411 | app_logger | INFO | Model Prediction Successfully
+2026-03-29 07:22:18,527 | app_logger | INFO | Model Save Start
+2026-03-29 07:22:18,539 | app_logger | INFO | Model Saved Successfully | path=data\model_evaluation\best_pipe.pkl
+2026-03-29 07:22:18,639 | app_logger | INFO | Main Pipeline Execution Completed
+2026-03-29 09:30:47,517 | app_logger | DEBUG | Logger initialized and configuration loaded.
+2026-03-29 09:30:47,518 | app_logger | INFO | Starting the Data Preprocessing Pipeline...
+2026-03-29 09:30:47,518 | app_logger | WARNING | External data source detected: checking file integrity.
+2026-03-29 09:30:47,518 | app_logger | ERROR | Data validation failed: missing columns in input CSV.
+2026-03-29 09:30:47,518 | app_logger | CRITICAL | Memory limit reached: process terminated.
+2026-03-29 09:30:47,519 | app_logger | INFO | Data Loaded Started
+2026-03-29 09:30:47,636 | app_logger | INFO | Data Load Successfully
+2026-03-29 09:30:47,637 | app_logger | INFO | Data Save Start
+2026-03-29 09:30:47,812 | app_logger | INFO | Data Saved Successfully
+2026-03-29 09:30:59,567 | app_logger | DEBUG | Logger initialized and configuration loaded.
+2026-03-29 09:30:59,567 | app_logger | INFO | Starting the Data Preprocessing Pipeline...
+2026-03-29 09:30:59,567 | app_logger | WARNING | External data source detected: checking file integrity.
+2026-03-29 09:30:59,568 | app_logger | ERROR | Data validation failed: missing columns in input CSV.
+2026-03-29 09:30:59,568 | app_logger | CRITICAL | Memory limit reached: process terminated.
+2026-03-29 09:30:59,568 | app_logger | INFO | Data Load Started
+2026-03-29 09:30:59,673 | app_logger | INFO | Data Load Successfully
+2026-03-29 09:30:59,673 | app_logger | INFO | Cleaning of Workclass Start
+2026-03-29 09:30:59,705 | app_logger | INFO | Workclass Columns Cleaning Completed
+2026-03-29 09:30:59,705 | app_logger | INFO | Cleaning of education column Start
+2026-03-29 09:30:59,757 | app_logger | INFO | Education column Cleaning Successfully
+2026-03-29 09:30:59,758 | app_logger | INFO | Education Order Column Created
+2026-03-29 09:30:59,768 | app_logger | INFO | Education Column Drop
+2026-03-29 09:30:59,773 | app_logger | INFO | marital_status column Cleaning Start
+2026-03-29 09:30:59,805 | app_logger | INFO | marital_status cleaning Successfully
+2026-03-29 09:30:59,806 | app_logger | INFO | Occupation Columns Cleaning Started
+2026-03-29 09:30:59,859 | app_logger | INFO | Occupation Column Cleaning Successfully
+2026-03-29 09:30:59,860 | app_logger | INFO | Relationship column Cleaning Started
+2026-03-29 09:30:59,879 | app_logger | INFO | Relationship columns Cleaning Successfully
+2026-03-29 09:30:59,880 | app_logger | INFO | Race Column Drop Successfully
+2026-03-29 09:30:59,881 | app_logger | INFO | native_country cleaning Started
+2026-03-29 09:30:59,982 | app_logger | INFO | Native_country Cleaning Successfully
+2026-03-29 09:30:59,988 | app_logger | INFO | Change the Income in 0&1
+2026-03-29 09:30:59,988 | app_logger | INFO | Rename the capital.loss column Successfully
+2026-03-29 09:30:59,989 | app_logger | INFO | Making a capital-gain-flag or capital-gain-log col by capital-gain 
+2026-03-29 09:30:59,992 | app_logger | INFO | making a columns successfully
+2026-03-29 09:30:59,993 | app_logger | INFO | Data Save Start
+2026-03-29 09:31:00,163 | app_logger | INFO | Data Saved Successfully
+2026-03-29 09:31:16,896 | app_logger | INFO | Main Pipeline Execution Started
+2026-03-29 09:31:16,897 | app_logger | INFO | Data Load Started
+2026-03-29 09:31:16,989 | app_logger | INFO | Data Load Successfully | shape=(32561, 15)
+2026-03-29 09:31:16,989 | app_logger | INFO | Data Splitting Start
+2026-03-29 09:31:17,011 | app_logger | INFO | Data Splitting Successfully | train=26048, test=6513
+2026-03-29 09:31:17,011 | app_logger | INFO | Making a Processor Started
+2026-03-29 09:31:17,012 | app_logger | INFO | Making a Processor Successfully
+2026-03-29 09:31:17,751 | app_logger | INFO | Model Building Start
+2026-03-29 09:31:17,755 | app_logger | INFO | Model Pipeline Build Started
+2026-03-29 09:31:17,756 | app_logger | INFO | Model Fitting Started
+2026-03-29 09:31:51,632 | app_logger | INFO | Model Fitting Successfully
+2026-03-29 09:31:51,633 | app_logger | INFO | Model Prediction Started
+2026-03-29 09:31:51,739 | app_logger | INFO | Model Prediction Successfully
+2026-03-29 09:31:51,896 | app_logger | INFO | Model Save Start
+2026-03-29 09:31:51,916 | app_logger | INFO | Model Saved Successfully | path=data\model_evaluation\best_pipe.pkl
+2026-03-29 09:31:52,074 | app_logger | INFO | Main Pipeline Execution Completed
+2026-03-29 09:35:38,534 | app_logger | DEBUG | Logger initialized and configuration loaded.
+2026-03-29 09:35:38,534 | app_logger | INFO | Starting the Data Preprocessing Pipeline...
+2026-03-29 09:35:38,535 | app_logger | WARNING | External data source detected: checking file integrity.
+2026-03-29 09:35:38,536 | app_logger | ERROR | Data validation failed: missing columns in input CSV.
+2026-03-29 09:35:38,536 | app_logger | CRITICAL | Memory limit reached: process terminated.
+2026-03-29 09:35:38,536 | app_logger | INFO | Data Loaded Started
+2026-03-29 09:35:38,624 | app_logger | INFO | Data Load Successfully
+2026-03-29 09:35:38,624 | app_logger | INFO | Data Save Start
+2026-03-29 09:35:38,821 | app_logger | INFO | Data Saved Successfully
+2026-03-29 09:37:00,946 | app_logger | DEBUG | Logger initialized and configuration loaded.
+2026-03-29 09:37:00,946 | app_logger | INFO | Starting the Data Preprocessing Pipeline...
+2026-03-29 09:37:00,947 | app_logger | WARNING | External data source detected: checking file integrity.
+2026-03-29 09:37:00,947 | app_logger | ERROR | Data validation failed: missing columns in input CSV.
+2026-03-29 09:37:00,947 | app_logger | CRITICAL | Memory limit reached: process terminated.
+2026-03-29 09:37:00,947 | app_logger | INFO | Data Loaded Started
+2026-03-29 09:37:01,020 | app_logger | INFO | Data Load Successfully
+2026-03-29 09:37:01,020 | app_logger | INFO | Data Save Start
+2026-03-29 09:37:01,356 | app_logger | INFO | Data Saved Successfully
+2026-03-31 02:24:42,993 | app_logger | INFO | Main Pipeline Execution Started
+2026-03-31 02:24:42,994 | app_logger | INFO | Data Load Started
+2026-03-31 02:24:43,205 | app_logger | INFO | Data Load Successfully | shape=(32561, 15)
+2026-03-31 02:24:43,205 | app_logger | INFO | Data Splitting Start
+2026-03-31 02:24:43,255 | app_logger | INFO | Data Splitting Successfully | train=26048, test=6513
+2026-03-31 02:24:43,259 | app_logger | INFO | Making a Processor Started
+2026-03-31 02:24:43,260 | app_logger | INFO | Making a Processor Successfully
+2026-03-31 02:24:45,241 | app_logger | INFO | Model Building Start
+2026-03-31 02:24:45,248 | app_logger | INFO | Model Pipeline Build Started
+2026-03-31 02:24:45,248 | app_logger | INFO | Model Fitting Started
+2026-03-31 02:25:30,483 | app_logger | INFO | Model Fitting Successfully
+2026-03-31 02:25:30,483 | app_logger | INFO | Model Prediction Started
+2026-03-31 02:25:30,696 | app_logger | INFO | Model Prediction Successfully
+2026-03-31 02:25:30,857 | app_logger | INFO | Model Save Start
+2026-03-31 02:25:30,875 | app_logger | INFO | Model Saved Successfully | path=data\model_evaluation\best_pipe.pkl
+2026-03-31 02:25:31,068 | app_logger | INFO | Main Pipeline Execution Completed
+2026-03-31 02:39:33,861 | app_logger | INFO | Main Pipeline Execution Started
+2026-03-31 02:39:33,861 | app_logger | INFO | Data Load Started
+2026-03-31 02:39:33,944 | app_logger | INFO | Data Load Successfully | shape=(32561, 15)
+2026-03-31 02:39:33,944 | app_logger | INFO | Data Splitting Start
+2026-03-31 02:39:33,969 | app_logger | INFO | Data Splitting Successfully | train=26048, test=6513
+2026-03-31 02:39:33,970 | app_logger | INFO | Making a Processor Started
+2026-03-31 02:39:33,971 | app_logger | INFO | Making a Processor Successfully
+2026-03-31 02:39:33,971 | app_logger | INFO | Model Building Start
+2026-03-31 02:39:33,971 | app_logger | INFO | Model Pipeline Build Started
+2026-03-31 02:40:23,427 | app_logger | INFO | Model Save Start
+2026-03-31 02:40:23,440 | app_logger | INFO | Model Saved Successfully | path=data\model_evaluation\best_pipe.pkl
+2026-03-31 02:40:23,440 | app_logger | INFO | Main Pipeline Execution Completed
